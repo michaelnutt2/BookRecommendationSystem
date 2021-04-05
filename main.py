@@ -68,6 +68,7 @@ plt.show()
 model.save('model')
 
 #Making recommendations for user 100
+#TODO: write a b_id
 book_arr = np.array(b_id) #get all book IDs
 user = np.array([100 for i in range(len(b_id))])
 pred = model.predict([book_arr, user])
