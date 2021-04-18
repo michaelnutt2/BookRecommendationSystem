@@ -36,7 +36,7 @@ class GUI:
         if self.book_entry.get() is '' or self.user_entry.get() is '':
             return messagebox.showwarning('Warning', 'Empty Fields')
 
-        value = model.new_prediction(self.user_entry, self.book_entry, self.model)
+        value = model.new_prediction(self.user_entry.get(), self.book_entry.get(), self.model)
 
         rating = "Predicted Rating: " + str(value)
 
