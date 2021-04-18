@@ -2,9 +2,6 @@ import tensorflow.keras as tf
 import pandas as pd
 import numpy as np
 
-USER = '24499'
-BOOK = '3628'
-
 #ratings_df = pd.read_csv("data/ratings.csv") 
 #books_df = pd.read_csv("data/books.csv")
 #print(list(ratings_df.book_id.unique()))
