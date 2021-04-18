@@ -19,5 +19,5 @@ def new_prediction(USER, BOOK, new_model):
     user = np.array([int(USER)])
 
     # make prediction
-    return new_model.predict([book, user])
+    return new_model.predict([book, user])[0][0]
     
