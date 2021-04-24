@@ -7,7 +7,7 @@ import numpy as np
 #print(list(ratings_df.book_id.unique()))
 
 # Loading the model
-def load_model:
+def load_model():
     return tf.models.load_model('model/model')
 
 def new_prediction(USER, BOOK, new_model):
